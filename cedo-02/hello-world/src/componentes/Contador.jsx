@@ -7,7 +7,7 @@ const Contador = ({title}) => {
         <div>
             <button
                 onClick ={() => setContador(contador+1)}>
-                {title}:{contador}
+                {title}: {contador}
             </button>
         </div>
     )
